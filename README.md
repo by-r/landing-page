@@ -11,3 +11,5 @@ Creating a web landing page based on specific site references/pics
 6. Info Header Text - 36px extra-bold #1F2937
 7. Quote section BG - #E5E7EB
 8. Quote Text - 36px light italic #1F2937
+9. CTA BG - #3882F6
+10. Footer BG - #1F2937
