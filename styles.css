@@ -88,3 +88,21 @@ a {
     background-color: #E5E7EB;
     padding: 32px;
 }
+
+.cta-section {
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    background: #3882F6;
+    margin: 16px 0 16px;
+}
+
+button .cta-section{
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+.footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
