@@ -21,6 +21,7 @@ button{
     color: #F9FAF8;
     font-weight: 600;
     padding: 8px 16px;
+    display: flex;
 }
 
 ul {
@@ -54,6 +55,8 @@ a {
     padding: 0 16px;
 }
 
+/* TITLE SECTION */
+
 .title-section {
     display: flex;
     align-items: center;
@@ -61,6 +64,45 @@ a {
     flex-direction: row;
     flex: 1;
     padding: 32px;
+}
+
+.title-column {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    margin: 42px;
+}
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: left;
+}
+
+.title-subtext {
+    text-align: left;
+    font-size: 24px;
+    font-weight: lighter;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.title-button {
+    width: max-content;
+    margin: 0 8px;
+}
+
+/* INFO SECTION */
+
+.info-column {
+    margin: 24px;
+    padding: 8px;
 }
 
 .info-title {
@@ -80,27 +122,55 @@ a {
     padding: 32px;
 }
 
+/* QUOTE SECTION */
+
 .quote-section {
+    background-color: #E5E7EB;
+    padding: 100px;
+    margin: 24px 0 32px;
+}
+
+.quote-text,
+.quote-subtext {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    background-color: #E5E7EB;
-    padding: 32px;
 }
+
+.quote-subtext {
+    text-align: right;
+}
+
+/* CTA SECTION */
 
 .cta-section {
     color: #F9FAF8;
     display: flex;
     justify-content: space-around;
     background: #3882F6;
-    margin: 16px 0 16px;
+    margin: 52px 0;
 }
 
-button .cta-section{
-    border-color: #F9FAF8;
-    border-style: solid;
+.cta-text {
+    font-size: large;
+    text-align: left;
+    font-weight: bold;
+    align-items: center;
+    padding: 48px;
 }
+
+.cta-subtext {
+    font-size: medium;
+    font-weight: normal;
+}
+
+button.cta-section{
+    align-items: center;
+    border: solid;
+}
+
+/* FOOTER */
 
 .footer {
     color: #F9FAF8;
